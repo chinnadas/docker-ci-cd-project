@@ -33,7 +33,7 @@ sudo usermod -aG docker jenkins
 	sudo chmod -R 777 /root/gameoflife.war
 	sudo docker build -t mytomcat /root/
 	sudo docker rm -f container2
-	sudo docker run -d --name container2 -p 8081:8080 mytomcat.
+	sudo docker run -d --name container2 -p 8081:8080 mytomcat
 
 6. build now project.
 
